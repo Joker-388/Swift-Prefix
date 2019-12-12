@@ -29,7 +29,7 @@ extension JKRPrefix where ProxyType: Person {
         }
     }
     
-    static func person(name: String = "某龙套", age: Int, lines: String? = nil) -> Person{
+    static func person(name: String = "某龙套", age: Int, lines: String? = nil) -> Person {
         var p = Person.init(name: name, age: age)
         p.jkr.lines = lines
         return p
